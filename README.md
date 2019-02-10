@@ -15,3 +15,4 @@ kratos >= 0
 5. 自定义友情链接[friend]
 6. 留言板小工具
 7. 公告栏小工具
+8. bilibili视频的短代码[bilivideo]
