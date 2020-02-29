@@ -57,10 +57,7 @@ class kamino_wp_noticebar extends WP_Widget {
                     $(this).css({marginTop: "0px"}).find("li:first").appendTo(this);
                 })
             }
-
-            $(function () {
-                setInterval('autoScroll(".notice")', 3000);
-            })
+            setInterval('autoScroll(".notice")', 3000);
         </script>
 		<?php
 	}

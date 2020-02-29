@@ -50,11 +50,11 @@ add_action( 'init', 'kamino_register_shortcodes' );
  * 添加静态文件
  */
 function kamino_register_script() {
-	wp_register_script( 'kamino-wp-script', plugins_url( '/kamino-wp-plugin/html/kamino_wp_plugin.js', dirname( __FILE__ ) ), "js", "1.2.3" );
+	wp_register_script( 'kamino-wp-script', plugins_url( '/kamino-wp-plugin/html/kamino_wp_plugin.js', dirname( __FILE__ ) ), array('jquery'), "1.2.3", false );
 	wp_enqueue_script( 'kamino-wp-script' );
-	wp_register_script( 'jquery-cookie-script', plugins_url( '/kamino-wp-plugin/html/jquery.cookie.js', dirname( __FILE__ ) ), "js", "1.4.1" );
+	wp_register_script( 'jquery-cookie-script', plugins_url( '/kamino-wp-plugin/html/jquery.cookie.js', dirname( __FILE__ ) ), array('jquery'), "1.4.1", false );
 	wp_enqueue_script( 'jquery-cookie-script' );
-	wp_register_style( 'kamino-wp-style', plugins_url( '/kamino-wp-plugin/html/kamino_wp_plugin.css', dirname( __FILE__ ) ), "css", "1.2.1" );
+	wp_register_style( 'kamino-wp-style', plugins_url( '/kamino-wp-plugin/html/kamino_wp_plugin.css', dirname( __FILE__ ) ), null, "1.2.1" );
 	wp_enqueue_style( 'kamino-wp-style' );
 }
 
