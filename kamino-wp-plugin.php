@@ -22,6 +22,7 @@ include_once KAMINO_PLUGIN_ROOT . "/functions/kamino-wp-noticebar.php";
 include_once KAMINO_PLUGIN_ROOT . "/functions/kamino-link-page.php";
 include_once KAMINO_PLUGIN_ROOT . "/functions/change-upload-name.php";
 include_once KAMINO_PLUGIN_ROOT . "/functions/bilibili-shortcode.php";
+include_once KAMINO_PLUGIN_ROOT . "/functions/wp-mirror.php";
 
 /*
  * 注册小工具
