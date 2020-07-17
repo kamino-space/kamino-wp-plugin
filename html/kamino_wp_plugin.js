@@ -1,4 +1,5 @@
 $(function () {
+/*
     if ($.cookie('kamino-notice') !== 'ok') {
         $.cookie('kamino-notice', 'ok');
         layer.open({
@@ -25,4 +26,5 @@ $(function () {
             content: '<div style="padding: 50px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">暂时退坑<br>有缘再见</div>'
         });
     }
+   */
 });
